@@ -1,0 +1,9 @@
+﻿parameter,RL,unit
+NO3N,0.02,ppm
+NH3N,0.1,ppm
+PO4,0.02,ppm
+Turb,1,NTU
+TSS,10,ppm
+Cond,20,uScm
+Alk,2,ppm
+pH,0,unit
