@@ -14,7 +14,7 @@ import_streamstats <- function(file_path) {
     select(-c(Parameter.Description, Unit)) %>%
     pivot_wider(names_from = Parameter.Code, values_from = Value) %>%
     mutate(site.number = 
-             sub("_.*", "", path_ext_remove(basename(file_path)))
+             sub("_.*", "", fs::path_ext_remove(basename(file_path)))
     )
 }
 
@@ -27,4 +27,12 @@ vwin.streamstats <- do.call(rbind, lapply(streamstats_path, import_streamstats))
 rm(streamstats_path, "import_streamstats")
 
 
-   
+############################################################################
+# import vwin site information
+vwin.site.data <- read_csv("data/raw/VWIN_site_data.csv") %>%
+  
+  # select out only the variables of interest
+  select(river.basin, water.body, county, site.number) %>%
+
+  # merge with streamstats information
+  merge(vwin.streamstats, by = "site.number")

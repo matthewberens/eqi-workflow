@@ -1,5 +1,5 @@
 #############################################
-# CCRG Proposal Data Wrangling
+# VWIN Data Import
 # Name: Matthew Berens
 # Updated: 12/3/2025
 #############################################
@@ -14,13 +14,13 @@ library(lubridate)
 #Load data file with sample names
 parametersEQI = read.csv("data/raw/EQIparameters.csv")
 
-#Load raw EQI data
-rawWQ = read.csv("data/raw/VWIN_wq_data.csv")
-rawMACRO = read.csv("data/raw/SMIE_macro_data.csv")
+#Load raw eqi data
+raw.vwin = read.csv("data/raw/VWIN_wq_data.csv")
+raw.sme = read.csv("data/raw/SMIE_macro_data.csv")
 
 
 #Prep cleaned EQI data
-cleanWQ = rawWQ %>%
+clean.vwin = raw.vwin %>%
   #filter(water.body == "Mud Creek") %>%
   
   #remove erroneous points
@@ -54,7 +54,7 @@ cleanWQ = rawWQ %>%
   mutate(month = month(date, label = TRUE)) %>%
   
   #set site and month factor levels
-  mutate(site.number = factor(site.number, levels = c("H21", "H3", "H18", "H4"))) %>%
+  #mutate(site.number = factor(site.number, levels = c("H21", "H3", "H18", "H4"))) %>%
   mutate(month = factor(month, levels = c("Oct", "Nov", "Dec", "Jan", "Feb", "Mar",
                                           "Apr", "May", "Jun", "Jul", "Aug", "Sep"))) %>%
   mutate(wday = yday(date)-274,
@@ -63,9 +63,9 @@ cleanWQ = rawWQ %>%
   select(-c("RL"))
 
 # export cleaned vwin data
-saveRDS(cleanWQ, "data/clean/vwin.cleaned.rds")
+saveRDS(clean.vwin, "data/clean/vwin.cleaned.rds")
 
-rm(rawWQ)
+rm(raw.vwin)
 
 
 #-------------------------------------------------
