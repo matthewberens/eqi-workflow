@@ -1,1 +1,89 @@
-Parameter Code,Parameter Description,Value,UnitLatitude,,35.39815,Longitude,,-82.52007,BASINPERIM,Basin perimeter measured along entire drainage-basin divide,94.06,milesBSLDEM30FT,"Mean basin slope, based on slope percent grid",15.9,percentCSL10_85fm,Change in elevation between points 10 and 85 percent of length along main channel to basin divide divided by length between points ft per mi,14.804,feet per miDRNAREA,Area that drains to a point on a stream,112,square milesELEV,Mean Basin Elevation,2330.8,feetELEVMAX,Maximum basin elevation,4233.56,feetI24H50Y,Maximum 24-hour precipitation that occurs on average once in 50 years,7.4661,inchesLC01BARE,"Percentage of area barren land, NLCD 2001 category 31",0.09,percentLC01CRPHAY,"Percentage of cultivated crops and hay, classes 81 and 82, from NLCD 2001",21.72,percentLC01DEV,Percentage of land-use from NLCD 2001 classes 21-24,32.22,percentLC01FOREST,Percentage of forest from NLCD 2001 classes 41-43,43.08,percentLC01HERB,Percentage of herbaceous upland from NLCD 2001 class 71,1.48,percentLC01IMP,Percent imperviousness of basin area 2001 NLCD,5.04,percentLC01SHRUB,Percent of area covered by shrubland using 2001 NLCD,0.77,percentLC01WATER,"Percentage of open water, class 11, from NLCD 2001",0.15,percentLC01WETLND,"Percentage of wetlands, classes 90 and 95,  from NLCD 2001",0.5,percentLC06BARE,Percent of area covered by barren rock using 2006 NLCD,0.1,percentLC06DEV,Percentage of land-use from NLCD 2006 classes 21-24,32.8,percentLC06FOREST,Percentage of forest from NLCD 2006 classes 41-43,42.76,percentLC06GRASS,Percent of area covered by grassland/herbaceous using 2006 NLCD,1.48,percentLC06IMP,Percentage of impervious area determined from NLCD 2006 impervious dataset,5.48,percentLC06PLANT,Percent of area in cultivation using 2006 NLCD,21.47,percentLC06SHRUB,Percent of area covered by shrubland using 2006 NLCD,0.75,percentLC06WATER,"Percent of open water, class 11, from NLCD 2006",0.15,percentLC06WETLND,Percent of area covered by wetland using 2006 NLCD,0.5,percentLC11BARE,Percentage of barren from NLCD 2011 class 31,0.1,percentLC11CRPHAY,"Percentage of cultivated crops and hay, classes 81 and 82, from NLCD 2011",21.02,percentLC11DEV,Percentage of developed (urban) land from NLCD 2011 classes 21-24,33.37,percentLC11FOREST,Percentage of forest from NLCD 2011 classes 41-43,42.26,percentLC11GRASS,Percent of area covered by grassland/herbaceous using 2011 NLCD,1.59,percentLC11IMP,Average percentage of impervious area determined from NLCD 2011 impervious dataset,5.78,percentLC11SHRUB,Percent of area covered by shrubland using 2011 NLCD,1.01,percentLC11WATER,"Percent of open water, class 11, from NLCD 2011",0.15,percentLC11WETLND,"Percentage of wetlands, classes 90 and 95,  from NLCD 2011",0.5,percentLC92FOREST,Percentage of forest from NLCD 1992 classes 41-43,55.91,percentLFPLENGTH,Length of longest flow path,21.05,milesLU92BARE,Percent of area covered by barren rock using 1992 NLCD,0.16,percentLU92DEV,Percent of area covered by all densities of developed land using 1992 NLCD,15.88,percentLU92PLANT,Percent of area in cultivation using 1992 NLCD,27.65,percentLU92WATER,Percent of area covered by water using 1992 NLCD,0.2,percentLU92WETLN,Percent of area covered by wetland using 1992 NLCD,0.2,percentMINBELEV,Minimum basin elevation,1983.03,feetOUTLETELEV,Elevation of the stream outlet in feet above NAVD88,2045.12,feetPCTREG1,Percentage of drainage area located in Region 1 - Piedmont / Ridge and Valley,0,percentPCTREG2,Percentage of drainage area located in Region 2 - Blue Ridge,100,percentPCTREG3,Percentage of drainage area located in Region 3 - Sandhills,0,percentPCTREG4,Percentage of drainage area located in Region 4 - Coastal Plains,0,percentPCTREG5,Percentage of drainage area located in Region 5 - Lower Tifton Uplands,0,percentPRECIP,Mean Annual Precipitation,58.2061,inchesPROTECTED,Percent of area of protected Federal and State owned land,0,percentSSURGOA,Percentage of area of Hydrologic Soil Type A from SSURGO,0.69,percentSSURGOB,Percentage of area of Hydrologic Soil Type B from SSURGO,87.24,percentSSURGOC,Percentage of area of Hydrologic Soil Type C from SSURGO,9.58,percentSSURGOD,Percentage of area of Hydrologic Soil Type D from SSURGO,1.98,percent
+StreamStats Output Report,,,,
+,,,,
+State/Region ID,NC,,,
+Latitude,35.39806,,,
+Longitude,-82.51902,,,
+Time,1/30/2026, 1:30:58 PM,,
+NHD Stream GNIS ID,1013816,,,
+NHD Stream GNIS Name,Mud Creek,,,
+,,,,
+,,,,
+Basin Characteristics,,,,
+Parameter Code,Parameter Description,Value,Unit,
+BASINPERIM,Basin perimeter measured along entire drainage-basin divide,93.94,miles,
+BSLDEM30FT,"Mean basin slope, based on slope percent grid",15.901,percent,
+CSL10_85fm,Change in elevation between points 10 and 85 percent of length along main channel to basin divide divided by length between points ft per mi,14.853,feet per mi,
+DRNAREA,Area that drains to a point on a stream,112,square miles,
+ELEV,Mean Basin Elevation,2330.81,feet,
+ELEVMAX,Maximum basin elevation,4233.56,feet,
+I24H50Y,Maximum 24-hour precipitation that occurs on average once in 50 years,7.4661,inches,
+LC01BARE,"Percentage of area barren land, NLCD 2001 category 31",0.09,percent,
+LC01CRPHAY,"Percentage of cultivated crops and hay, classes 81 and 82, from NLCD 2001",21.72,percent,
+LC01DEV,Percentage of land-use from NLCD 2001 classes 21-24,32.22,percent,
+LC01FOREST,Percentage of forest from NLCD 2001 classes 41-43,43.08,percent,
+LC01HERB,Percentage of herbaceous upland from NLCD 2001 class 71,1.48,percent,
+LC01IMP,Percent imperviousness of basin area 2001 NLCD,5.04,percent,
+LC01SHRUB,Percent of area covered by shrubland using 2001 NLCD,0.77,percent,
+LC01WATER,"Percentage of open water, class 11, from NLCD 2001",0.15,percent,
+LC01WETLND,"Percentage of wetlands, classes 90 and 95,  from NLCD 2001",0.5,percent,
+LC06BARE,Percent of area covered by barren rock using 2006 NLCD,0.1,percent,
+LC06DEV,Percentage of land-use from NLCD 2006 classes 21-24,32.8,percent,
+LC06FOREST,Percentage of forest from NLCD 2006 classes 41-43,42.76,percent,
+LC06GRASS,Percent of area covered by grassland/herbaceous using 2006 NLCD,1.48,percent,
+LC06IMP,Percentage of impervious area determined from NLCD 2006 impervious dataset,5.48,percent,
+LC06PLANT,Percent of area in cultivation using 2006 NLCD,21.47,percent,
+LC06SHRUB,Percent of area covered by shrubland using 2006 NLCD,0.75,percent,
+LC06WATER,"Percent of open water, class 11, from NLCD 2006",0.15,percent,
+LC06WETLND,Percent of area covered by wetland using 2006 NLCD,0.5,percent,
+LC11BARE,Percentage of barren from NLCD 2011 class 31,0.1,percent,
+LC11CRPHAY,"Percentage of cultivated crops and hay, classes 81 and 82, from NLCD 2011",21.02,percent,
+LC11DEV,Percentage of developed (urban) land from NLCD 2011 classes 21-24,33.37,percent,
+LC11FOREST,Percentage of forest from NLCD 2011 classes 41-43,42.26,percent,
+LC11GRASS,Percent of area covered by grassland/herbaceous using 2011 NLCD,1.59,percent,
+LC11IMP,Average percentage of impervious area determined from NLCD 2011 impervious dataset,5.78,percent,
+LC11SHRUB,Percent of area covered by shrubland using 2011 NLCD,1.01,percent,
+LC11WATER,"Percent of open water, class 11, from NLCD 2011",0.15,percent,
+LC11WETLND,"Percentage of wetlands, classes 90 and 95,  from NLCD 2011",0.5,percent,
+LC92FOREST,Percentage of forest from NLCD 1992 classes 41-43,55.91,percent,
+LFPLENGTH,Length of longest flow path,20.98,miles,
+LU92BARE,Percent of area covered by barren rock using 1992 NLCD,0.16,percent,
+LU92DEV,Percent of area covered by all densities of developed land using 1992 NLCD,15.88,percent,
+LU92PLANT,Percent of area in cultivation using 1992 NLCD,27.64,percent,
+LU92WATER,Percent of area covered by water using 1992 NLCD,0.2,percent,
+LU92WETLN,Percent of area covered by wetland using 1992 NLCD,0.2,percent,
+MINBELEV,Minimum basin elevation,1983.03,feet,
+OUTLETELEV,Elevation of the stream outlet in feet above NAVD88,2044.58,feet,
+PCTREG1,Percentage of drainage area located in Region 1 - Piedmont / Ridge and Valley,0,percent,
+PCTREG2,Percentage of drainage area located in Region 2 - Blue Ridge,100,percent,
+PCTREG3,Percentage of drainage area located in Region 3 - Sandhills,0,percent,
+PCTREG4,Percentage of drainage area located in Region 4 - Coastal Plains,0,percent,
+PCTREG5,Percentage of drainage area located in Region 5 - Lower Tifton Uplands,0,percent,
+PRECIP,Mean Annual Precipitation,58.2065,inches,
+PROTECTED,Percent of area of protected Federal and State owned land,0,percent,
+SSURGOA,Percentage of area of Hydrologic Soil Type A from SSURGO,0.69,percent,
+SSURGOB,Percentage of area of Hydrologic Soil Type B from SSURGO,87.25,percent,
+SSURGOC,Percentage of area of Hydrologic Soil Type C from SSURGO,9.58,percent,
+SSURGOD,Percentage of area of Hydrologic Soil Type D from SSURGO,1.98,percent,
+,,,,
+National Hydrography Dataset (NHD) Hydrologic Features,,,,
+Intersecting NHD Streams,,,,
+Watershed 1,,,,
+GNIS ID,GNIS Name,Distance from Clicked Point (ft),Feature Type,Selected Stream Name
+1013816,Mud Creek,4.49,Artificial Path,Mud Creek
+Intersecting HUC 8s,,,,
+HUC 8,Name,,,
+6010105,Upper French Broad,,,
+3050105,Upper Broad,,,
+,,,,
+,,,,
+"USGS Data Disclaimer: Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.",,,,
+"USGS Software Disclaimer: This software has been approved for release by the U.S. Geological Survey (USGS). Although the software has been subjected to rigorous review, the USGS reserves the right to update the software as needed pursuant to further analysis and review. No warranty, expressed or implied, is made by the USGS or the U.S. Government as to the functionality of the software and related material nor shall the fact of release constitute any such warranty. Furthermore, the software is released on condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from its authorized or unauthorized use.",,,,
+"USGS Product Names Disclaimer: Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.",,,,
+,,,,
+Application Version: 4.30.0,,,,
+SSHydro Services Version: 1.0.0,,,,
+SSDelineate Services Version: 1.0.1,,,,
+NSS Services Version: 2.2.1,,,,
+GageStats Services Version: 1.2.1,,,,
+Pourpoint Services Version: 1.2.0,,,,
+Batch Processor Services Version: 1.6.0,,,,
